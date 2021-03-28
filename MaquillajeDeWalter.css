@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Akaya Kanadaka", cursive;
+  user-select: none;
+}
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  font-size: 6vw;
+}
+.respuesta {
+  height: 7vw;
+  font-size: 6vw;
+  transform: rotate(180deg);
+}
+.walterHabla {
+  font-size: 2.5vw;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 50vw;
+  width: 50vw;
+}
+.contenedor-botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40vw;
+}
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+  height: 10vw;
+  width: 10vw;
+  font-size: 5vw;
+  border-radius: 20px;
+  transition: all 200ms;
+}
+.boton:hover i {
+  transform: rotate(20deg);
+  transition: 200ms transform;
+  cursor: pointer;
+}
+.boton:hover {
+  cursor: pointer;
+}
+.resultado {
+  font-size: 3vw;
+}
+.contenedor-resultados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nombres-resultado {
+  font-size: 2vw;
+}
+#tijera {
+  transform: rotate(90deg);
+}
