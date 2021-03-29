@@ -87,7 +87,7 @@ h1 {
     transform: rotate(180deg);
   }
   .walterHabla {
-    font-size: 8vw;
+    font-size: 6vw;
   }
   .contenedor {
     height: 130vw;
@@ -97,15 +97,15 @@ h1 {
     width: 100vw;
   }
   .boton {
-    width: 30vw;
-    height: 30vw;
+    width: 26vw;
+    height: 26vw;
     font-size: 15vw;
   }
   .nombres-resultado {
-    font-size: 10vw;
+    font-size: 9vw;
   }
   .resultado {
-    font-size: 15vw;
+    font-size: 13vw;
   }
   .contenedor-resultados {
     height: 50vw;
