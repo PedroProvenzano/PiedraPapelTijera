@@ -76,3 +76,38 @@ h1 {
 #tijera {
   transform: rotate(90deg);
 }
+
+@media (max-width: 570px) {
+  h1 {
+    font-size: 20vw;
+  }
+  .respuesta {
+    height: 25vw;
+    font-size: 20vw;
+    transform: rotate(180deg);
+  }
+  .walterHabla {
+    font-size: 8vw;
+  }
+  .contenedor {
+    height: 130vw;
+    width: 100vw;
+  }
+  .contenedor-botones {
+    width: 100vw;
+  }
+  .boton {
+    width: 30vw;
+    height: 30vw;
+    font-size: 15vw;
+  }
+  .nombres-resultado {
+    font-size: 10vw;
+  }
+  .resultado {
+    font-size: 15vw;
+  }
+  .contenedor-resultados {
+    height: 50vw;
+  }
+}
